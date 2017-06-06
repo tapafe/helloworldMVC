@@ -5,7 +5,14 @@
   <groupId>fr.exia</groupId>
   <artifactId>helloworldmaven</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
+    <modules>
+        <module>helloworlddmvc.controller</module>
+      <module>helloworlddmvc.model</module>
+      <module>helloworlddmvc.view</module>
+      <module>helloworlddmvc.Contract</module>
+      <module>helloworlddmvc.main</module>
+    </modules>
+    <packaging>pom</packaging>
 
   <name>helloworldmaven</name>
   <url>http://maven.apache.org</url>
